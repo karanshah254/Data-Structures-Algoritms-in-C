@@ -1,4 +1,3 @@
-// Binary search 
 
 #include <stdio.h>
 
