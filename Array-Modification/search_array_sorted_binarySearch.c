@@ -7,7 +7,7 @@ int binarySearch(int array[], int n, int search_element)
     int left = 0, right = n - 1;
     while (left <= right)
     {
-        int mid =  (right + left) / 2;
+        int mid = (right + left) / 2;
 
         if (array[mid] == search_element)
         {
