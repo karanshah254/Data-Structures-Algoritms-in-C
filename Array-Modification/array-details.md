@@ -3,7 +3,7 @@
 2. Array declaration
 ```c
     data-type array[size]; // 1 option
-    data-type array[] = {value_1,va;ue_2,...};
+    data-type array[] = {value_1,value_2,...};
 ```
 
 3. Easy sorting and searching in array, random access.
