@@ -2,7 +2,7 @@
 int main()
 {
     int array[] = {1, 1, 2, 2, 3, 3, 4};
-    int result;
+    int result = 0;
 
     for (int i = 0; i < 7; i++)
     {
