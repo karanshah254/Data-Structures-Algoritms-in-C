@@ -43,6 +43,7 @@ int main()
 
     // calling display function
     display(head);
+    printf("This continues as per user choice..\n");
 
     return 0;
 }
