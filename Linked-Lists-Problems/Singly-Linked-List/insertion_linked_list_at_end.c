@@ -57,4 +57,6 @@ int main()
 
     printf("\nInsertion at end of Linked List is : \n");
     printList(head);
+
+    return 0;
 }
