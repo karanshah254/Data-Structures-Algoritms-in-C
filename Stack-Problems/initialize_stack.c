@@ -9,12 +9,6 @@ struct Stack
     int top;
 };
 
-// Initalize the stack
-void intialize(struct Stack *stack)
-{
-    stack->top = -1;
-}
-
 // check if stack is empty 
 int isEmpty(struct Stack *stack)
 {
@@ -31,7 +25,7 @@ int isFull(struct Stack *stack)
 int main()
 {
     struct Stack myStack;
-    intialize(&myStack);
+    myStack.top = -1;
 
     return 0;
 }

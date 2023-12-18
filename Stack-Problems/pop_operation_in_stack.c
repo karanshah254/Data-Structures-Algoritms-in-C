@@ -60,6 +60,6 @@ int main()
 
     printf("\nPoped element is : %d", pop(&myStack));
 
-    display(&myStack); // this shows stack is empty 
+    display(&myStack); 
     return 0;
 }
