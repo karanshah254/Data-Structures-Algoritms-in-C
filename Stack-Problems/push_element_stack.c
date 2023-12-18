@@ -7,6 +7,7 @@ struct Stack
     int top;
 };
 
+// push elements to stack
 void push(struct Stack *stack, int value)
 {
     if (stack->top == size - 1)
