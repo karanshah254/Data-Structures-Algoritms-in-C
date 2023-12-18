@@ -1,9 +1,0 @@
-1. Linked list has advantages over arrays.
-2. Insertion and deletion is very easy in Linked list.
-3. Implementation of Linked list : Using structure data-type.
-    struct Node {
-        int data ;
-        struct Node* next;
-    };
-4. Starting element or node is a key which is generally termed as head.
-5. Dynamic in size.
