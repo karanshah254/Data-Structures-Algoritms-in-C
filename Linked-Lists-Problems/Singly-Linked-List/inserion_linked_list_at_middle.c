@@ -74,4 +74,6 @@ int main()
     insertAtMiddle(head->next, 18);
     printf("\nAfter insertion at middle : ");
     printList(head);
+
+    return 0;
 }
