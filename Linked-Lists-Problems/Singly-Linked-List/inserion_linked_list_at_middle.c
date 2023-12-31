@@ -22,6 +22,7 @@ struct Node *createNode(int data)
 
 void insertAtMiddle(struct Node *prevNode, int data)
 {
+    printf("\nValue at middle is %d\n",data);
     if (prevNode == NULL)
     {
         printf("\nPrevious node cannot be null");
