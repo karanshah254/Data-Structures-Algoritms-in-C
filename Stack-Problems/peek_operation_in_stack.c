@@ -41,5 +41,5 @@ int main()
     push(&myStack, 5);
     push(&myStack, 6);
 
-    printf("\nTop elemet in stack => %d\n", peek(&myStack));
+    printf("\nTop element in stack => %d\n", peek(&myStack));
 }
