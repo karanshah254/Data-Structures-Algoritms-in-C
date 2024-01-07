@@ -1,0 +1,9 @@
+- > 1. Bubble Sort :-
+
+- > 2. Merge Sort :-
+
+- > 3. Quick Sort :-
+
+- > 4. Insertion Sort :-
+
+- > 5. Selection Sort :-
