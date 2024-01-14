@@ -1,0 +1,20 @@
+1. A queue in which we are able to insert & remove items from any position based on some
+property (such as priority of the task to be processed) is often referred as priority queue.
+
+2. Priorities are attached with each Job
+    2.1 - Priority 1 -> Real Time Job
+
+    2.2 - Priority 2 -> Online Job
+
+    2.3 - Priority 3 -> Batch Processing Job
+
+3. Therefore if a job is initiated with priority i, it is inserted immediately at the end of list of
+other jobs with priorities i.
+
+4. Here jobs are always removed from the front of queue.
+
+5. P.Q -> viewed as set of queues
+
+    R1 R2 … Ri-1 -> Real Time Job
+    O1 O2 … Oj-1 -> Online job
+    B1 B2 … Bk-1 -> Batch Processing Job
