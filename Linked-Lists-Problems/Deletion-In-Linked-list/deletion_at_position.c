@@ -70,7 +70,7 @@ int main()
     printf("\nBefore deletion linked list is : ");
     display(head);
 
-    printf("\nAfter deleltion at user position : ");
+    printf("After deleltion at user position : ");
     deleltionAtPostion(&head, 3);
     display(head);
 

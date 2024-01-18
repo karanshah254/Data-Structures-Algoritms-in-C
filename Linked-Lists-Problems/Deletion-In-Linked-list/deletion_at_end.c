@@ -38,7 +38,7 @@ void display(struct node *head)
         printf("%d -> ", current->data);
         current = current->next;
     }
-    printf("NULL\n\n");
+    printf("NULL\n");
 }
 int main()
 {
