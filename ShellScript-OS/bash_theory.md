@@ -35,7 +35,7 @@ if [ $number -eq 10 ]; then
 else
     echo "The number is not equal to 10"
 fi
-# list of comparaters: -eq, -ne, -lt, -le, -gt, -ge
+# list of comparaters: -eq(checks equal), -ne(checks not equal), -lt(check less than), -le(checks less than and equal), -gt(checks greater than), -ge(checks greater than and eqaul)
 ```
 
 4. Loops in Shell-Script
