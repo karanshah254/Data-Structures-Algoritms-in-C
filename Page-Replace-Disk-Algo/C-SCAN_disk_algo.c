@@ -3,16 +3,16 @@
 int main()
 {
     int RQ[100], i, j, n, TotalHeadMoment = 0, initial, size, move;
-    printf("\nEnter the number of Requests\n");
+    printf("\nEnter the number of Requests :");
     scanf("%d", &n);
-    printf("\nEnter the Requests sequence\n");
+    printf("\nEnter the Requests sequence: \n");
     for (i = 0; i < n; i++)
         scanf("%d", &RQ[i]);
-    printf("\nEnter initial head position\n");
+    printf("\nEnter initial head position :");
     scanf("%d", &initial);
-    printf("\nEnter total disk size\n");
+    printf("\nEnter total disk size :");
     scanf("%d", &size);
-    printf("\nEnter the head movement direction for high 1 and for low 0\n");
+    printf("\nEnter the head movement direction for high 1 and for low 0 :");
     scanf("%d", &move);
 
     for (i = 0; i < n; i++)
